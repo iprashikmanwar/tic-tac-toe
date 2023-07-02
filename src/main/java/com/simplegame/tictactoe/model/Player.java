@@ -1,15 +1,10 @@
 package com.simplegame.tictactoe.model;
 
-import org.jetbrains.annotations.NotNull;
-import org.springframework.beans.factory.annotation.Value;
-
 public class Player {
-    @NotNull
     String name;
-    //@Value(PlayerMark.unassigned)
-    PlayerMark playerMark;
+    int playerMark;
 
-    Player(String name, PlayerMark playerMark){
+    Player(String name, int playerMark){
         this.name = name;
         this.playerMark = playerMark;
     }
@@ -22,11 +17,11 @@ public class Player {
         this.name = name;
     }
 
-    public PlayerMark getPlayerMark() {
+    public int getPlayerMark() {
         return playerMark;
     }
 
-    public void setPlayerMark(PlayerMark playerMark) {
+    public void setPlayerMark(int playerMark) {
         this.playerMark = playerMark;
     }
 }

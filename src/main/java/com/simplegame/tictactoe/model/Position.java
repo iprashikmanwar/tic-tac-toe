@@ -1,15 +1,15 @@
 package com.simplegame.tictactoe.model;
 
 public enum Position {
-    P1(1,1),
-    P2(1,2),
-    P3(1,3),
-    P4(2,1),
-    P5(2,2),
-    P6(2,3),
-    P7(3,1),
-    P8(3,2),
-    P9(3,3);
+    P1(0,0),
+    P2(0,1),
+    P3(0,2),
+    P4(1,0),
+    P5(1,1),
+    P6(1,2),
+    P7(2,0),
+    P8(2,1),
+    P9(2,2);
 
     public final int row;
     public final int col;
