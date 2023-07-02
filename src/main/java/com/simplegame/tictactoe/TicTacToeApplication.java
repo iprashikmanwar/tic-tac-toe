@@ -1,13 +1,13 @@
 package com.simplegame.tictactoe;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.simplegame.tictactoe.model.Board;
 
-@SpringBootApplication
 public class TicTacToeApplication {
 
+	public static Board board = new Board();
 	public static void main(String[] args) {
-		SpringApplication.run(TicTacToeApplication.class, args);
+		board.init();
+		board.showBoard();
 	}
 
 }
