@@ -1,8 +1,8 @@
 package com.simplegame.tictactoe.model;
 
 public class Move {
-    Player moveByPlayer;
-    Position position;
+    public Player moveByPlayer;
+    public Position position;
 
     public Move(Player moveByPlayer, Position position) {
         this.moveByPlayer = moveByPlayer;

@@ -9,7 +9,7 @@ import static com.simplegame.tictactoe.model.PlayerMark.unassigned;
 
 public class Board {
     List<Move> moveList;
-    int field[][] = new int[3][3];
+    public int field[][] = new int[3][3];
 
     public Player player1;
     public Player player2;

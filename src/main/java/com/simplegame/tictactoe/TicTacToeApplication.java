@@ -1,7 +1,7 @@
 package com.simplegame.tictactoe;
 
 import com.simplegame.tictactoe.model.Board;
-import com.simplegame.tictactoe.model.Play;
+import com.simplegame.tictactoe.service.Play;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
